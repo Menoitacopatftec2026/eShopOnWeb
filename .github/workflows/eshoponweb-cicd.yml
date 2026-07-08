@@ -14,7 +14,7 @@ env:
 jobs:
   #Build, test and publish .net web project in repository
   buildandtest:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, eShopOnWebSelfPool63282535]
     steps:
       #checkout the repository
       - uses: actions/checkout@v5
